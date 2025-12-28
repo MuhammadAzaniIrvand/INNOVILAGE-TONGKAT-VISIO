@@ -1,0 +1,27 @@
+description: Ultralytics YOLO11n model trained on /kaggle/working/data_ready.yaml
+author: Ultralytics
+date: '2025-12-28T21:30:32.822208'
+version: 8.3.241
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: Kursi
+  1: got
+  2: kendaraan
+  3: meja
+  4: orang
+  5: papan
+  6: pintu_terbuka
+  7: pintu_tertutup
+  8: tangga menaik
+  9: tangga_menurun
+args:
+  batch: 1
+  half: false
+channels: 3
